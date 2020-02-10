@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo "ssffssdfsgdrsadggggdfgdsgffha"'
+        sh 'echo "sffsgdrsadggggdfgdsgffha"'
       }
     }
     stage('Test') {
