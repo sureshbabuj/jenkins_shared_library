@@ -7,6 +7,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "sffsgdrsadggggdfgdsgffha"'
+        sh 'echo $BRANCH_NAME'
       }
     }
     stage('Test') {
